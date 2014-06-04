@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "serv"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "rave": "^0.1.3",
     "rave-load-jsx": "^0.1.0"
+  },
+  "devDependencies": {
+    "serv": "0.0.7"
   }
 }
