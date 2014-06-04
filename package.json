@@ -1,0 +1,41 @@
+{
+  "name": "rave-load-jsx",
+  "version": "0.1.0",
+  "description": "Adds jsx loading to RaveJS based on file extensions.",
+  "main": "rave.js",
+  "rave": "rave",
+  "keywords": [
+    "rave",
+    "rave-extension",
+    "jsx",
+    "react",
+    "loader",
+    "es6",
+    "module",
+    "node",
+    "commonjs"
+  ],
+  "peerDependencies": {
+    "rave": "~0.1"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KidkArolis/rave-load-jsx/issues"
+  },
+  "homepage": "https://github.com/KidkArolis/rave-load-jsx",
+  "contributors": [
+    {
+      "name": "Karolis Narkevicius"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:KidkArolis/rave-load-jsx.git"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "test",
+    "tests"
+  ]
+}
