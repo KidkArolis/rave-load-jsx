@@ -6,6 +6,12 @@ By default, rave-load-jsx loads files with the `.jsx` extension and compiles the
 
 ## Usage
 
+First install it into your rave project via:
+
+```
+npm install --save rave-load-jsx
+```
+
 For CommonJS/node-formatted modules (or AMD-wrapped CommonJS):
 
 ```js
