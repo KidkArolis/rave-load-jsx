@@ -18,9 +18,9 @@ function create (context) {
       {
         extensions: extensions,
         hooks: {
-          instantiate: function (file) {
-            // console.log(jsxTransformer.transform(file.source).code);
-            return jsxTransformer.transform(file.source).code;
+          translate: function (file) {
+            var pragma = '/** @jsx React.DOM */';
+            return jsxTransformer.transform(pragma + file.source).code;
           }
         }
       }
