@@ -16,7 +16,7 @@
     "commonjs"
   ],
   "peerDependencies": {
-    "rave": "~0.1"
+    "rave": "~0.2"
   },
   "license": "MIT",
   "bugs": {
