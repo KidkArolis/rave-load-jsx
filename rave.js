@@ -18,6 +18,7 @@ function create (context) {
       {
         extensions: extensions,
         hooks: {
+          locate: locate,
           translate: function (file) {
             var pragma = '/** @jsx React.DOM */';
             return jsxTransformer.transform(pragma + file.source).code;
@@ -27,4 +28,10 @@ function create (context) {
     ]
   };
 
+}
+
+function locate (load) {
+	var metadata = load.metadata;
+	metadata.dontAddExt = true;
+	return false;
 }
