@@ -1,6 +1,6 @@
 {
   "name": "rave-load-jsx",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Adds jsx file loading to rave.js based on the file extension.",
   "main": "rave.js",
   "rave": "rave",
