@@ -23,7 +23,7 @@ React.renderComponent(<MyComponent />, document.body);
 For classic AMD modules:
 
 ```js
-define(['./my_component.html'], function (MyComponent) {
+define(['./my_component.jsx'], function (MyComponent) {
   // ...
   React.renderComponent(<MyComponent />, document.body);
 });
