@@ -1,6 +1,6 @@
 {
   "name": "rave-load-jsx",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Adds jsx file loading to rave.js based on the file extension.",
   "main": "rave.js",
   "rave": "rave",
@@ -16,7 +16,7 @@
     "commonjs"
   ],
   "peerDependencies": {
-    "rave": "~0.2"
+    "rave": "~0.4"
   },
   "license": "MIT",
   "bugs": {
@@ -31,11 +31,5 @@
   "repository": {
     "type": "git",
     "url": "git@github.com:KidkArolis/rave-load-jsx.git"
-  },
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "test",
-    "tests"
-  ]
+  }
 }

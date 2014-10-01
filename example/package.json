@@ -9,8 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "rave": "^0.1.3",
-    "rave-load-jsx": "^0.1.0"
+    "rave": "^0.4",
+    "rave-load-jsx": "^0.3.0"
   },
   "devDependencies": {
     "serv": "0.0.7"
